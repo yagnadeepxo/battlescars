@@ -12,8 +12,6 @@ const Home = () => {
         <p className="text-lg max-w-md mx-auto mb-4">
           While others are <strong>reacting</strong> to yesterday's news, our subscribers are <strong>acting</strong> on tomorrow's trends.
         </p>
-        <div className="text-xl font-bold bg-yellow-200 inline-block px-3 py-1">$5/month</div>
-        <p className="text-lg mt-2">for intelligence that pays for itself</p>
       </div>
       
       <form className="flex flex-col gap-2 w-full max-w-sm mx-auto">
@@ -34,6 +32,34 @@ const Home = () => {
           </div>
         ))}
       </div>
+
+      <div className="my-8 text-center">
+        <h2 className="text-lg font-bold mb-4">How We Compare</h2>
+        <table className="w-full max-w-lg mx-auto border-collapse border border-black text-left text-sm">
+          <thead>
+            <tr className="bg-black text-white">
+              <th className="border border-black p-2">Feature</th>
+              <th className="border border-black p-2">Battle Scars</th>
+              <th className="border border-black p-2">Other Newsletters</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ["Daily Actionable Intelligence", "✔️", "❌"],
+              ["Startup & VC Trends", "✔️", "Limited"],
+              ["5-Minute Briefings", "✔️", "❌"],
+              ["No Fluff, Just Insights", "✔️", "❌"],
+              ["Exclusive Market Shifts", "✔️", "Rare"],
+            ].map((row, index) => (
+              <tr key={index} className="border border-black">
+                <td className="border border-black p-2">{row[0]}</td>
+                <td className="border border-black p-2">{row[1]}</td>
+                <td className="border border-black p-2">{row[2]}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
       
       <div className="my-8">
         <h2 className="text-lg font-bold mb-4">Testimonials</h2>
@@ -48,6 +74,13 @@ const Home = () => {
             </div>
           ))}
         </div>
+      </div>
+      
+
+      
+      <div className="text-center my-6">
+        <div className="text-xl font-bold bg-yellow-200 inline-block px-3 py-1">$5/month</div>
+        <p className="text-lg mt-2">for intelligence that pays for itself</p>
       </div>
       
       <footer className="text-center text-gray-700 border-t pt-4 text-sm w-full">ACT FAST • STAY AHEAD • WIN</footer>
