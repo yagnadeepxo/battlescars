@@ -19,7 +19,7 @@ const InternLandingPage = () => {
         <div className="mb-12">
           <h2 className="text-xl font-semibold mb-4">what is this?</h2>
           <p className="text-stone-700 leading-relaxed mb-4">
-            my own intelligence agency. I've created a daily summary of all the significant events that matter to me, complete with <em>genuine analysis</em> that goes beyond just the headlines.
+            AI intelligence agency. I've created a daily summary of all the significant events that matter, complete with <em>genuine analysis</em> that goes beyond just the headlines.
           </p>
           <p className="text-stone-700 leading-relaxed">
             gives me the "what", "actionable insights", and "so what" behind global tech news in 5 min.
@@ -123,7 +123,7 @@ const InternLandingPage = () => {
           <div className="space-y-4">
             <div>
               <h3 className="font-bold mb-2">How often will I receive briefings?</h3>
-              <p className="text-stone-700">You'll receive intelligence briefings every weekday morning by 7 AM in your local timezone.</p>
+              <p className="text-stone-700">You'll receive intelligence briefings every day at 0.00 GMT</p>
             </div>
             <div>
               <h3 className="font-bold mb-2">What topics are covered?</h3>

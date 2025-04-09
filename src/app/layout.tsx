@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Yagna’s Intern",
-  description: "Curated Intelligence for Discerning Investors",
+  description: "Curated Intelligence for the ambitious",
 };
 
 export default function RootLayout({
