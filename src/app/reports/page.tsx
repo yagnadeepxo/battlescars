@@ -78,13 +78,10 @@ export default function ReportsPage() {
             <ArrowLeft className="w-4 h-4 mr-1" />
             Back to Reports
           </button>
-
-          <div className="p-6 bg-white rounded-lg shadow-sm border border-stone-200">
             <div
               className="prose max-w-none prose-stone prose-headings:font-serif prose-headings:font-medium prose-p:text-stone-700"
               dangerouslySetInnerHTML={{ __html: selectedReport.html }}
             />
-          </div>
         </div>
       )}
 
