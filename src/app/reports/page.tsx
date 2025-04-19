@@ -63,7 +63,6 @@ export default function ReportsPage() {
               <h3 className="text-lg font-semibold text-stone-800 break-words hover:underline">
                 {report.name}
               </h3>
-              <p className="text-xs text-stone-500 mt-1">{formatDate(report.created_at)}</p>
             </div>
           ))}
         </div>
