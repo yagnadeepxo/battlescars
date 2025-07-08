@@ -34,6 +34,17 @@ const InternLandingPage = () => {
             <li>delivers one clean & engaging report</li>
           </ul>
         </div>
+
+        {/* What I've tried before */}
+        <div className="mb-12">
+          <h2 className="text-xl font-semibold mb-4">what i've tried before</h2>
+          <ul className="list-disc list-inside space-y-2 text-stone-700">
+            <li>built a crypto payments platform for merchants using USDe — paused due to tough competition and unclear regulations</li>
+            <li>launched a two-sided bounty marketplace for the Ethereum community — no one really wanted it enough</li>
+            <li>was CTO at an insurance aggregator, built full auth and infra — exited due to vision misalignment with founders and investors</li>
+            <li>wrote a full design paper for a forex risk engine using perpetual futures — failed due to chicken-egg problem with traders and liquidity</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
