@@ -12,7 +12,7 @@ const InternLandingPage = () => {
           <h2 className="text-xl font-semibold mb-4">what i've tried before</h2>
           <ul className="list-disc list-inside space-y-2 text-stone-700">
             <li>
-              Built a crypto payments platform for merchants using USDe — paused due to tough competition and unclear regulations.  
+              Built a crypto payments platform for merchants using USDe — paused due to tough competition and unclear regulations.
               <a 
                 href="https://github.com/yagnadeepxo/pulse" 
                 target="_blank" 
@@ -43,6 +43,26 @@ const InternLandingPage = () => {
               Worked on building ZK cryptographic libraries and audited a PSE project (Jan 2023 – May 2024)
             </li>
           </ul>
+        </div>
+
+        {/* Links to social profiles */}
+        <div className="text-center text-stone-700 space-x-4">
+          <a
+            href="https://x.com/yagnadeepxo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline"
+          >
+            X(twitter) ↗
+          </a>
+          <a
+            href="https://github.com/yagnadeepxo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline"
+          >
+            github ↗
+          </a>
         </div>
       </div>
     </div>
