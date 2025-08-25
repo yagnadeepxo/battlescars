@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const InternLandingPage = () => {
   const [location, setLocation] = useState("international");
-
+  
   return (
     <div className="font-serif bg-stone-100 text-stone-800 flex flex-col items-center pt-20">
       <div className="max-w-4xl w-full p-6">
@@ -43,7 +43,7 @@ const InternLandingPage = () => {
               Worked on building ZK cryptographic libraries and audited a PSE project (Jan 2023 – May 2024)
             </li>
             <li>
-              Built Alo, an AI usage tracker Chrome extension — failed because I had no money to get distribution and couldn’t raise funds.
+              Built Alo, an AI usage tracker Chrome extension — failed because I had no money to get distribution and couldn't raise funds.
               <a 
                 href="https://github.com/yagnadeepxo/alo-extension" 
                 target="_blank" 
@@ -56,8 +56,15 @@ const InternLandingPage = () => {
           </ul>
         </div>
 
+        {/* CTA */}
+        <div className="text-center mb-8">
+          <span className="font-semibold bg-yellow-200 text-stone-900 px-3 py-1 rounded-md inline-block">
+            i request for one chance
+          </span>
+        </div>
+
         {/* Links to social profiles */}
-        <div className="text-center text-stone-700 space-x-4 mb-8">
+        <div className="text-center text-stone-700 space-x-4">
           <a
             href="https://x.com/yagnadeepxo"
             target="_blank"
@@ -74,12 +81,15 @@ const InternLandingPage = () => {
           >
             github ↗
           </a>
+          <a
+            href="https://www.linkedin.com/in/yagnadeep-reddy-3a1505205/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline"
+          >
+            linkedin ↗
+          </a>
         </div>
-
-        {/* CTA */}
-        <p className="text-center font-semibold bg-yellow-300 text-stone-900 px-4 py-2 rounded-md">
-          i request for one chance
-        </p>
       </div>
     </div>
   );
