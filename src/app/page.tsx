@@ -27,6 +27,14 @@ const InternLandingPage = () => {
             </li>
             <li>
               Was CTO at an insurance aggregator, built full auth and infra — exited due to vision misalignment with founders and investors
+              <a 
+                href="https://finzip.in" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-600 underline ml-1"
+              >
+                finzip.in →
+              </a>
             </li>
             <li>
               Wrote a full design paper for a forex risk engine using perpetual futures — failed due to chicken-egg problem with traders and liquidity.
@@ -59,7 +67,7 @@ const InternLandingPage = () => {
         {/* CTA */}
         <div className="text-center mb-8">
           <span className="font-semibold bg-yellow-200 text-stone-900 px-3 py-1 rounded-md inline-block">
-            i request for one chance
+            I request for one chance
           </span>
         </div>
 
